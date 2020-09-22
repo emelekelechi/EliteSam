@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+    
+}
+
+#body{
+    margin: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 200px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: black;
+}
+#header1 img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: right;
+    opacity: 0.6;
+    position: relative;
+}
+#header2{
+    position: absolute;
+    background-color: green;
+    top: 60px;
+    height: 70px;
+    opacity: 0.8;
+    width: 100%;
+    text-align: center;
+}
+#header2 span{
+    color: black;
+    opacity: 1;
+    font-family: arial black;
+    font-size: 40px;
+    text-shadow: 2px 2px orangered;
+}
+#whyus h2{
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px orangered;
+}
+#whyus p{
+    font-size: 13px;
+    line-height: 28px;
+    color: #404040;
+    text-align: justify;
+}
+#whyus2 h3{
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px orangered;
+}
+#whyus2 p{
+    font-size: 13px;
+    line-height: 28px;
+    color: #404040;
+    text-align: justify;
+}
+.divider-spectrum{
+        height: 20px;
+        background: linear-gradient(blue, orangered, green);
+        margin-bottom: 0px; 
+}
+ .contact-links{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    .contact-links a{
+    font-size: 23px;
+    color: white;
+    }
+    #contact1{
+        background-color:forestgreen;
+    }
+    footer{
+    text-align: center;
+    min-height: 55px;
+    background-color: #000033;
+    color: #fff;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    border-top: 3px solid orangered;
+}
+.card{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+@media (max-width: 768px){
+    #header2 span{
+    color: black;
+    opacity: 1;
+    font-family: arial black;
+    font-size: 30px;
+    text-shadow: 2px 2px orangered;
+}
+}
+
+
