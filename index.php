@@ -31,7 +31,7 @@
         position:fixed;
         z-index: 10;
         left: 0;
-        top:12%;
+        top:7%;
         background-color: white;
         overflow-x: hidden;
         transition: 0.7s;
@@ -43,7 +43,7 @@
     }
     .sideNav-content{
         position: relative;
-        top: 0%;
+        top: 10%;
         width: 100%;
         text-align: left; 
         margin-top: 0px;
@@ -53,14 +53,15 @@
     .sideNav-content a{
         padding: 8px;
         text-decoration: none;
-        font-size: 14px;
+        font-size: 16px;
         color: black;
         padding-bottom: 16px;
         padding-top: 16px;
         display: block;
         transition: 0.9s;
-        padding-left: 10px;
-        font-family: arial black;
+        padding-left: 30px;
+        font-family: fantasy;
+        font-weight: bolder;
         
     }
     #sidenav1:hover{
@@ -185,7 +186,6 @@
         font-weight: bold;
         margin-bottom: 40px;
         margin-top: 45px;
-        font-family: cursive;
         text-shadow: 2px 2px grey;
     }
     #whyus2 p{
@@ -196,7 +196,6 @@
     }
     #whatuget{
         text-align: center;
-        font-family: 'Rakkas', cursive;
         font-weight: bold;
         text-shadow: 2px 2px #1a3300;
     }
@@ -497,7 +496,7 @@
 <body id="body">
 <nav class="navbar navbar-expand-md bg-white navbar-light text sticky-top" style="border-bottom: 1px solid #e6e6e6">
     <div class="rd-navbar-panel">
-       <a href="javascript:void(0);" class="navbar-toggler" type="button" data-toggle="collapse" data-target="collapsibleNavbar" style="border: 0px;">
+       <a href="javascript:void(0);" class="navbar-toggler" data-toggle="collapse" data-target="collapsibleNavbar" style="border: 0px;">
            <span id="toggle" class="open" onclick="opensidenav()">&#8801;</span>
         </a>
         <a class="navbar-brand" href="#"><img src="./images/logo.jpg" /> </a>
@@ -584,7 +583,7 @@
         <div class="carousel-item">
           <img src="./images/images%20(3).jpeg" alt="Chicago" max-width="100%" height="570" style="object-fit:cover; object-position:left" />
           <div class="carousel-caption">
-            <span>We Train world class web developer</span>
+            <span style="color:orangered">We Train world class web developer</span>
             <h1>We are software experts</h1>
             <p>Join the moving train now!</p>
           </div>   
@@ -592,7 +591,7 @@
         <div class="carousel-item">
           <img src="./images/images%20(4).jpeg" alt="New York" max-width="100%" height="570" style="object-fit:cover; object-position:left">
           <div class="carousel-caption">
-            <span>Connect with professionals</span>
+            <span style="color:orangered">Connect with professionals</span>
             <h1>Learn long lasting skills</h1>
             <p>Financial freedom all the way!</p>
           </div>   
@@ -620,9 +619,9 @@
 
         <div class="col-lg-7" id="img5">
             <div id="aboutimage" class="image-group">
-                <img id="img1" class="img1" src="./images/about3.png" alt="mobile-view-about-us-image" data-aos="flip-up" data-aos-duration="4000" data-aos-delay="100">
-                <img id="img2" class="img2" src="./images/about2.png" alt="mobile-view-about-us-image" data-aos="flip-up" data-aos-duration="4000" data-aos-delay="1000">
-                <img id="img3" class="img3" src="./images/about1.png" alt="mobile-view-about-us-image" data-aos="flip-up" data-aos-duration="4000" data-aos-delay="1700">
+                <img id="img1" class="img1" src="./images/about3.png" alt="mobile-view-about-us-image" data-aos="flip-up" data-aos-delay="100">
+                <img id="img2" class="img2" src="./images/about2.png" alt="mobile-view-about-us-image" data-aos="flip-up" data-aos-delay="1000">
+                <img id="img3" class="img3" src="./images/about1.png" alt="mobile-view-about-us-image" data-aos="flip-up" data-aos-delay="1700">
             </div>
         </div>
     </div>
@@ -643,7 +642,7 @@
                     <h3>What you stand to enjoy</h3>
                     <p>At EliteSam.com, we create a platform where members have access to easy communication with skillful entrepreneurs in other to acquire the needed skills and knowledge to build their own businesses</p>
                     <p>We also help to land our members their desire dream job in the tech world.</p>
-                    <a class="btn btn-default text-success font-weight-bold" style="border: 1px solid green" id="plan">LEARN MORE</a>
+                    <a href="about us.php" class="btn btn-default text-success font-weight-bold" style="border: 1px solid green" id="plan">LEARN MORE</a>
                 </div>
             </div>
         </div>
@@ -667,7 +666,7 @@
                         <li>Content Development and Management</li>
                         <li> E-mail marketing etc.</li>
                     </ul>
-                    <a class="btn btn-success text-light font-weight-bold">LEARN MORE</a>
+                    <a href="about us.php" class="btn btn-success text-light font-weight-bold">LEARN MORE</a>
                 </div>
              </div>
             <div class="col-md-6 col-lg-4" style="margin-bottom:10px">
@@ -683,7 +682,7 @@
                         <li>Code Mastery</li>
                         <li>Distinction between a scripter and a programmer</li>
                     </ul>
-                    <a class="btn btn-default text-success font-weight-bold" style="border: 1px solid green">LEARN MORE</a>
+                    <a href="about us.php" class="btn btn-default text-success font-weight-bold" style="border: 1px solid green">LEARN MORE</a>
                 </div>
             </div>
             <div class="col-md-6 col-lg-4" style="margin-bottom:0px">
@@ -699,14 +698,14 @@
                         <li>Company modems made available for trainees to browse at home during the course of training</li>
                         <li>Access to web development textbooks</li>
                     </ul>
-                    <a class="btn btn-success text-light font-weight-bold"  id="packages">LEARN MORE</a>
+                    <a href="about us.php" class="btn btn-success text-light font-weight-bold"  id="packages">LEARN MORE</a>
                 </div>
             </div>
          </div>
     </div>
     <div class="dropdown-divider"></div>
     <div class="container" style="margin-top:40px">
-        <h1 id="our-packages" data-aos="slide-down" style="text-align:center; font-family:cursive; font-weight:bold; text-shadow: 2px 2px gray">Our Special Packages</h1><br><br>
+        <h1 id="our-packages" data-aos="slide-down" style="text-align:center; font-weight:bold; text-shadow: 2px 2px gray">Our Special Packages</h1><br><br>
         <p id="our-packages-p" data-aos="slide-up" style="text-align:center; font-weight:bold; color:#3d3d5c;">Participants can join any of the packages as listed below</p>
         <div class="row">
             <div class="col-md-6">

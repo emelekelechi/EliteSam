@@ -18,9 +18,9 @@
 <div id="body">
     <div id="header">
         <div id="header1">
-            <img src="images/time2.jpg" alt="" />
+            <img src="images/images%20(6).jpeg" alt="" />
             <div id="header2">
-                <span data-aos="slide-down">OUR GALLERY</span>
+                <span data-aos="zoom-in">OUR GALLERY</span>
             </div>
         </div>
     </div><br><br>
@@ -30,7 +30,7 @@
                 <div class="card" style="margin-bottom:50px; margin-right:5px">
                     <img class="card-img-top" src="images/kelex3134.jpg" height="300" alt="Card image">
                     <div class="card-body">
-                        <p class="card-text" style="text-align:center; color:black" data-aos="slide-down"><b>The Chief Executive Officer of Kelex Technology Limited (KeleTech)</b></p>
+                        <p class="card-text" style="text-align:center; color:black" data-aos="zoom-in"><b>The Chief Executive Officer of Kelex Technology Limited (KeleTech)</b></p>
                     </div>
                 </div>
             </div>
@@ -38,7 +38,7 @@
                 <div class="card" style="margin-bottom:50px; margin-right:5px">
                     <img class="card-img-top" src="images/man.jpg" height="300" alt="Card image">
                     <div class="card-body">
-                        <p data-aos="slide-down" class="card-text" style="text-align:center; color:black"><b>Our student members in Canada studying mobile application development</b></p>
+                        <p data-aos="zoom-in" class="card-text" style="text-align:center; color:black"><b>Our student members in Canada studying mobile application development</b></p>
                     </div>
                 </div>
             </div>
@@ -46,7 +46,7 @@
                 <div class="card" style="margin-bottom:50px; margin-right:5px">
                     <img class="card-img-top" src="images/images%20(2).jpeg" height="300" alt="Card image">
                     <div class="card-body">
-                        <p class="card-text" style="text-align:center; color:black" data-aos="slide-down"><b>Research Intrument called Hyper-Analytic machine used to monitor moving objects</b></p>
+                        <p class="card-text" style="text-align:center; color:black" data-aos="zoom-in"><b>Research Intrument called Hyper-Analytic machine used to monitor moving objects</b></p>
                     </div>
                 </div>
             </div>

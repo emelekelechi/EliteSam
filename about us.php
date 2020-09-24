@@ -28,7 +28,7 @@
         <div class="row">
             <div class="col-md-4">
                 <div id="whyus" class="whyus">
-                    <h2 data-aos="slide-up" data-aos-duration="4000" data-aos-delay="500">Our Mission</h2>
+                    <h2 data-aos="slide-down" data-aos-duration="4000" data-aos-delay="500">Our Mission</h2>
                     <p data-aos="slide-right">At EliteSam.com, we create a platform where we train members on high technological skills which help them learn and earn multiple streams of income. Poverty alleviation is another dirt we want to sleep away from the life of people that we make themselves available for the training.</p>
                 </div>
             </div><br>
